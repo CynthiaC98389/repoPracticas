@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(226, 222, 216); /* Esto es el color de fondo de toda la página*/
+    font-family: Arial, Helvetica, sans-serif; /* Es la fuente de letra que tiene toda la página*/
+     }
+
+.titulo{
+    background-color: rgb(93, 93, 93); /* Es el color de fondo que tiene el titulo, en este caso se usa la gama de colores RGB */
+    font-weight: bold; /* Pone las letras en negritas */
+    font-size: 25px; /* Aumenta el tamaño de la letra */
+    letter-spacing: -.004em; /* Sirve para ajustar el espacio entre letras */
+    text-align: center; /* Alinea el texto al centro de la página*/
+    padding: 1%; /* Sirve para crear espacio entre las letras y los bordes*/
+    
+} 
+
+
+
+.producto {
+    background-color: rgb(150, 150, 151); /* Es el color de fondo que tiene la sección del producto */
+    margin: 4%; /* Es el margen alrededor del bloque donde se muestra el producto y no choca con los bordes de la página*/
+    display: flex; /* Sirve para organizar de manera flexible los elementos de un contenedor */
+    justify-content: center; /* Sirve para alinear los elemntos de un contenedor de forma horizontal en el centro */
+    align-items: center; /* Sirve para linear verticalmente los elementos en el centro*/
+    text-align: justify; /* Sirve para justificar la alineación del texto */
+    border-color:rgb(96, 92, 92); /* Cambia el color del borde a gris oscuro */
+    border-style:solid; /* Muestra el estilo del borde, en este caso línea sólida */
+    border-width: 3px; /* Es el ancho del borde */
+    border-radius: 2%; /* Redondea las esquinas del borde */
+}
+.imagen {
+margin-right: 10%; /* Pone un margen al derecho de la imagen para que este separada del texto */
+}
+
+#precioPs {
+    color: red;} /* Muestra el precio en color rojo */
+
+
+.link {
+    text-align: right; /* Muestra la alineación del texto del link a la derecha*/
+    margin: 4%; /* Pone un margen al link para que no este pegado al borde de la página */
+}
