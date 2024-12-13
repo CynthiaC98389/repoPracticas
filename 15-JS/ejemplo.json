@@ -1,0 +1,43 @@
+[{
+    "Nombre": "Andrea",
+    "edad": 26,
+    "hobbies": [ // si se tienen varios hobbies se usan [] como en js los arreglos
+        "Leer",
+        "Bailar",
+        "Dibujar"
+    ]
+},
+
+{
+    "Nombre": "Alex",
+    "edad": 29,
+    "hobbies": [
+        "Esquiar",
+        "Coleccionar",
+        "Tecnico"
+    ]
+},
+
+{
+    "Nombre": "Abigail",
+    "edad": 28,
+    "hobbies": [
+        "Bailar",
+        "Netflix"
+    
+    ]
+},
+
+{
+    "Nombre": "Cristal",
+    "edad": 26,
+    "hobbies": [
+        "Leer",
+        "Peliculas"
+    ]
+}
+
+
+]
+
+INVESTIGAR METODOS ACCESORIOS (PENDIENTE) HACER DE TAREA-------- Y SUBIRLO A REPO O SUBIRLA AL CHAT DE GOOGLE
