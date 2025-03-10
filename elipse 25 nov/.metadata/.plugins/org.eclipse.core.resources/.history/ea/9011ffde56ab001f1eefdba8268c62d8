@@ -1,0 +1,34 @@
+package org.generation.funciones;
+
+import java.util.List;
+
+/*
+La diferencia entre una funcion y un metodo es que el metodo depende del objeto y la funcion es independiente
+metodos estaticos*
+se define con la palabra static
+
+*metodos de instancia*
+Necesitan ser invocadas en una instancia de la clase
+
+*metodos de tipo void*
+Realiza una tarea sin devolver un valor
+
+*metodos abstactos*
+Deben ser implementados por clases hijas
+POO
+
+*Metodos con valor de retorno*
+
+Utiliza la palabra return para devolver un valor
+**/
+
+
+public class Jugueteria
+
+public class Funciones {
+
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,42 @@
+package org.generation.colecciones;
+
+import java.util.ArrayList;
+
+public class Colecciones {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/*ArrayList - Coleccion de arreglos dinamicos*/
+		ArrayList <String> movies = new ArrayList <String>();
+		
+		
+		movies.add("Chungking express");
+		movies.add("Sustancia");
+		movies.add("Robor");
+		
+		/**/
+		String peliFavCyn = movies.get(0);
+		
+		/* Obtener el tamaño del arrelo*/
+		
+		int size= movies.size ();
+		
+		/*remover elemento*/
+		
+		movies.remove(2);
+		
+		/*Iteracion arreglos*/
+		for (String movie: movies) {
+			System.out.println ("movies: " + movie); 
+			
+		}
+		
+		/*Arreglo Estatico*/
+		int [] numerosTelefono = {7441938,1838201,199929};
+		System.out.println ("Arreglo: " + numerosTelefono);
+		
+		
+	}
+
+}

@@ -1,0 +1,84 @@
+package org.generation.funciones;
+import java.util.ArrayList;
+import java.util.List;
+
+/*
+La diferencia entre una funcion y un metodo es que el metodo depende del objeto y la funcion es independiente
+metodos estaticos*
+se define con la palabra static
+
+*metodos de instancia*
+Necesitan ser invocadas en una instancia de la clase
+
+*metodos de tipo void*
+Realiza una tarea sin devolver un valor
+
+*metodos abstactos*
+Deben ser implementados por clases hijas
+POO
+
+*Metodos con valor de retorno*
+
+Utiliza la palabra return para devolver un valor
+**/
+
+
+public class Funciones {
+	
+	static class Productos{ 
+		String nombre;
+		double precio;
+		
+		Productos (String nombre, double precio) {
+			this.nombre = nombre; 
+			this.precio = precio;
+			
+			
+			
+		}
+		
+	}
+	
+	static class carritoCompra {
+		List<Productos> productos = new Arraylist<> ();
+		
+		void agregarProductos (Productos barbie) {
+			productos.add(barbie);
+	
+		}
+		
+		double calcularTotal() {
+			double total = 0;
+			for (Producto barbie : productos) {
+				total += barbie.precio; 
+		}
+		
+		return total; 
+		
+	}
+		
+		double calcularTotalEnvio (double costoEnvio) {
+			double total = calcularTotal;
+			double costoEnvio = calcularTotalEnvio;
+}
+
+public class Funciones {
+
+	public static void main(String[] args) {
+
+		Producto muñeca1 = new Producto ("Barbie", 115.70);
+		Producto muñeca2 = new Producto ("Chelsea", 98.70);
+		Producto muñeca3 = new Producto ("Kelly", 105.70);
+	
+		
+		carritoCompra carrito = new carritoCompra ();
+		carrito.agregarProductos (muñeca1);
+		carrito.agregarProductos (muñeca2);
+		
+		double totalCarrito = carrito.calcularTotal;
+		
+		System.out.println("Tu total es de " + totalCarrito );
+
+	}
+
+}

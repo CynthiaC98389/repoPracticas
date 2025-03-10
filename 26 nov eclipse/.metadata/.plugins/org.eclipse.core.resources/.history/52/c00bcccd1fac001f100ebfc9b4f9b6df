@@ -1,0 +1,19 @@
+package org.generation.loopsYcollections;
+
+public class Practice {
+	
+	public static void main(String[] args) {
+	// TODO Auto-generated method stub
+
+
+	int contador = 1;
+	
+	while (contador <= 5 ){
+		System.out.println("Iteracion" + contador);
+		contador ++;
+	}
+
+	}
+
+
+}

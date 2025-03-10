@@ -1,0 +1,109 @@
+package org.generation.colecciones;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.HashSet; 
+
+public class Colecciones {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/*ArrayList - Coleccion de arreglos dinamicos*/
+		ArrayList <String> movies = new ArrayList <String>();
+		
+		
+		movies.add("Chungking express");
+		movies.add("Sustancia");
+		movies.add("Robor");
+		
+		/**/
+		String peliFavCyn = movies.get(0);
+		
+		/* Obtener el tamaño del arrelo*/
+		
+		int size= movies.size ();
+		
+		/*remover elemento*/
+		
+		movies.remove(2);
+		
+		/*Iteracion arreglos*/
+		for (String movie: movies) {
+			System.out.println ("movies: " + movie); 
+			
+		}
+		
+		/*Arreglo Estatico*/
+		int [] numerosTelefono = {7441938,1838201,199929};
+        System.out.println("Arreglo: " + Arrays.toString(numerosTelefono));
+		
+        
+        /*Set -> Hashset*/
+        
+        
+        HashSet <String> namesCH47 = new HashSet <String> ();
+        
+        /*Agregar elementos al set*/
+        namesCH47.add ("Areli"); 
+        namesCH47.add ("Abi"); 
+        namesCH47.add ("Abi"); 
+        namesCH47.add ("Irving");
+        
+        /*atributos size*/
+        int sizeNames = namesCH47.size ();
+        
+        /*remover */
+        namesCH47.remove("Irving");
+        /*Contiene-contains */
+        boolean isAreHere= namesCH47.contains("Areli");
+       System.out.println (isAreHere);
+       
+       /*Sets son iterables*/
+       
+       
+       for (String name : namesCH47) {
+    	  System.out.println ("Nombre " + name); 
+    	   
+    	   
+       }
+       
+       
+        
+       /*Map - Hashmap*/
+       
+       HashMap <Integer, String> users = new HashMap <Integer, String> ();
+       
+       
+       /*Agregar elemento por medio de la estructura clave, valor*/
+       users.put(0, "Pato");
+       users.put(1, "aandrea_bernal");
+       users.put(2,"Arezbi8a");
+       
+       System.out.println (users);
+       
+       /*Obtener tamaño*/
+       
+       int sizeUsers = users.size ();
+       
+       /*Get value using key*/
+       
+       String userKey0 = users.get(0);
+       
+       /*Eliminar elementos*/
+       
+       users.remove(1);
+       
+       /*Iteraciones del Map*/
+       
+        for (int key : users.keySet()) {
+        	
+            System.out.println ("key: " + key + " valor " + users.get(key));
+
+        	
+        }
+		
+	}
+
+}

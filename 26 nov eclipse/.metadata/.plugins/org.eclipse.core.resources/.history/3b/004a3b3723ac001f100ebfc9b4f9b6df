@@ -1,0 +1,43 @@
+package org.generation.loopsYcollections;
+
+public class Practice {
+	
+	public static void main(String[] args) {
+	// TODO Auto-generated method stub
+	
+		/*Loops: While, do while*/
+
+	int contador = 1;
+	
+	while (contador <= 5 ){
+		System.out.println("Iteracion" + contador);
+		contador ++;
+	}
+	System.out.println("-------");
+
+	
+	
+	/*doWhile*/
+	int contadorDoWhile = 1;
+	do {
+		System.out.println ("IteracionDoWhile" + contadorDoWhile);
+		contadorDoWhile++;
+	}while (contador <= 5);
+	
+	/*For
+	 * Las condiciones de los for se basan en 3 partes: 
+	 * 1. La inicializacion -> se inicializa el contador
+	 * 2.Ondicion ->se utiliza la comparacion de dos variables el inicializador 
+	 * y la cantidad o la condicion que delimite N de iteraciones,
+	 * y de preferencia se iguala =
+	 * 3. el incremento o actualizacion del contador  
+	 * */
+	for (int i= 0; i<=5; i++) {
+		System.out.println("Contador For:" + i);
+
+		
+	}
+
+	}
+
+}
