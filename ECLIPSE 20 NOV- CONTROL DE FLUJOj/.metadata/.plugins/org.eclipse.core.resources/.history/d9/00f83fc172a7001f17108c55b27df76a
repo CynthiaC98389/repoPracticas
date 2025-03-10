@@ -1,0 +1,36 @@
+package org.generation.controlDeFlujo;
+
+public class ControlDeFlujo {
+
+	public static void main(String[] args) {
+
+	}
+
+	// comentarios de una sola línea 
+	/* cometarios multilinea
+	 * */
+
+	/*Tipos de datos y variables
+	*Variable es un espacio de memoria que puede variar
+	*numeros enteros
+	 * numero enteros 
+	 * byte -128 al 127
+	 * short -32,768 al 32767
+	 * int -2147483648 al 2147486347
+	 * long -9223372036854775808 al 9223372036854775807
+	 * numeros decimales 
+	 * float 23 bits 
+	 * double 64 bits 
+	 * boolean 
+	 * true-false
+	 * char Representa un solo caracter (puede ser numero, letra, simbolo)
+	 * String Es una clase que tambien sirve como tipo de dato 
+	 * 
+	 * 
+	 * 
+	 * */
+	
+	//Cine
+	byte numeroSalas = 8; 
+	
+}

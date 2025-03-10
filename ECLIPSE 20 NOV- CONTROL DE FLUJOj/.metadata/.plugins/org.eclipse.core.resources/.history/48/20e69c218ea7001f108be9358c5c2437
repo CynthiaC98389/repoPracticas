@@ -1,0 +1,125 @@
+package org.generation.controlDeFlujo;
+
+import java.util.Scanner;
+
+public class ControlDeFlujo {
+
+	public static void main(String[] args) {
+
+
+
+	// comentarios de una sola línea 
+	/* cometarios multi
+	 * linea
+	 * */
+
+	/*Tipos de datos y variables
+	*Variable es un espacio de memoria que puede variar
+	*numeros enteros
+	 * numero enteros 
+	 * byte -128 al 127
+	 * short -32,768 al 32767
+	 * int -2147483648 al 2147486347
+	 * long -9223372036854775808 al 9223372036854775807
+	 * numeros decimales 
+	 * float 23 bits 
+	 * double 64 bits 
+	 * boolean 
+	 * true-false
+	 * char Representa un solo caracter (puede ser numero, letra, simbolo)
+	 * String Es una clase que tambien sirve como tipo de dato 
+	 * 
+	 * 
+	 * 
+	 * */
+	
+	//Cine
+	byte numeroSalas = 8; 
+	short asientosPorSala = 120;
+	int entradasVendidas =75;
+	long ingresosTotales = 5000000;
+	float precioEntrada = 99.99F; 
+	double precioCombo = 259.50;
+	char letraAsiento = 'B';
+	boolean estaAbierto = true;
+	
+	String nombreCine = "blockbuster";
+	
+	System.out.println ("Mi cine se llama " + nombreCine);
+	System.out.println (ingresosTotales);
+	
+	/*
+	 * Operadores aritmeticos
+	 * +suma
+	 * -resta
+	 * *multiplicacion
+	 *division/
+	 *%residuo
+	 *
+	 *operadores de comparacion
+	 *== compara la igualdad, no hay estrictamente igualdad ===
+	 *!= compara desigualdad
+	 *< menor que
+	 *> mayor que
+	 *<= menor o igual que
+	 *>= mayor o igual que
+	 *
+	 *
+	 *Operadores logicos
+	 *&& and
+	 *|| or
+	 *! not 
+	 *
+	 */
+	
+	/*Control de flujo
+	 * para dirigir el flujo, darle un sentido y logica
+	 * que el codigo se comporte como yo quiero
+	 * permite tomar decisiones
+	 * como se va ejecutando el codigo
+	 * 
+	 */
+	//Instanciar un objeto de tipo scanner ( para que me ingrese un dato mi usuario)
+	Scanner scannerCyn = new Scanner (System.in);
+	System.out.println ("Hola, ingresa tu nombre");
+	
+	String nombre = scannerCyn.next (); //metodo next encuentra el string y lo devuelve
+	System.out.println ("Holi, bienvenidx " + nombre );
+	//Scanner.close ();
+	System.out.println ("Ingresa tu edad");
+	
+	int edad = scannerCyn.nextInt();
+	
+	System.out.println ("Tienes " + edad + " años");
+	
+	
+	
+	// como cierro mi scanner
+	//Scanner.close (); es una buena practica cerrar los scanner y que solo funcione en el pedazo de codigo que tu quieres
+	
+	//if, else, if else
+	//Determiniar si mi usuario es un bebé, un niño, adolescente, adulto o adulto mayor
+	
+	if (edad >= 18) {
+		if (edad < 70) {
+			System.out.println ("Eres un adulto");
+		} else {
+			System.out.println ("Eres un adulto mayor");
+		}
+		} else if (edad >= 12) {
+			System.out.println ("Eres un adolescente");
+		} else if (edad >= 6) {
+		System.out.println ("Eres un niño");
+		} else {
+			System.out.println ("Eres un bebé");
+		}
+	
+	
+	//Switch
+	//Mi usuarix ingresa un numero del 1 al 7 para saber que 
+	System.out.println ("Ingresa un numero del 1 al 7");
+	byte dia= Scanner.nextByte ();
+	
+}	
+
+}}
